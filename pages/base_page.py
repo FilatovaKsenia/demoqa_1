@@ -22,3 +22,15 @@ class BasePage:
             return True
         else:
             return False
+
+    def back(self):
+        return self.driver.back()
+
+    def forward(self):
+        return self.driver.forward()
+
+    def refresh(self):
+        return self.driver.refresh()
+
+    def get_title(self):
+        return self.driver.title()
