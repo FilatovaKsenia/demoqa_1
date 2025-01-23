@@ -28,3 +28,11 @@ class Tables(BasePage):
         self.added_4th_departament = WebElement(driver,'#app > div > div > div > div.col-12.mt-4.col-md-6 > div.web-tables-wrapper > div.ReactTable.-striped.-highlight > div.rt-table > div.rt-tbody > div:nth-child(4) > div > div:nth-child(6)')
         self.btn_edit_4th_record = WebElement(driver, '#edit-record-4 > svg')
         self.btn_delete_4th_record = WebElement(driver, '#delete-record-4 > svg')
+
+        self.header_first_name = WebElement(driver, 'div.rt-th:nth-child(1)')
+        self.header_last_name = WebElement(driver, 'div.rt-th:nth-child(2)')
+        self.header_email = WebElement(driver, 'div.rt-th:nth-child(3)')
+        self.header_age = WebElement(driver, 'div.rt-th:nth-child(4)')
+        self.header_salary = WebElement(driver, 'div.rt-th:nth-child(5)')
+        self.header_department = WebElement(driver, 'div.rt-th:nth-child(6)')
+        self.header_action = WebElement(driver, 'div.rt-th:nth-child(7)')
